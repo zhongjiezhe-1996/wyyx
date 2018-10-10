@@ -1,0 +1,218 @@
+.header{
+			width: 1090px;
+			height: 210px;
+			margin: 0 auto;
+		}
+		div.header ul.nav,ul.sub-nav{
+			list-style-type: none;
+		}
+		.one{
+			width :100%;
+			position: absolute;
+			left: 0;
+			height: 36px;
+			background-color: #333;
+		}
+		.first{
+			width:1090px;
+			margin:auto;
+			height: 36px;
+		}
+
+		div.first li:first-child{
+			list-style: none;
+			color: white;
+			float: left;
+			font-size: 12px;
+			padding: 12px;
+			width: 150px;
+			border:none;
+		}
+		div.first li{
+			list-style: none;
+			color: white;
+			float: right;
+			font-size: 12px;
+			padding: 12px 5px;
+			width: 55px;
+			height: 12px;
+			margin: auto;
+			border-right: 1px solid #666;
+			text-align: center;
+		}
+		
+		.two{
+			height: 175px;
+			margin: 0 auto;
+			width: 1090px;
+			position: relative;
+			z-index: 999;
+			/*text-align: center;*/
+
+		}
+		ul.nav{
+			line-height: 25px;
+font-weight: 700;
+position: absolute;
+height: 25px;
+width: 100%;
+margin: auto;
+padding-left: 90px;
+margin-top: 10px;
+padding-bottom: 6px;
+		}
+		div.two>ul.nav li{
+			float: left;
+			width: 60px;
+			font-size: 14px;
+			color: black;
+			margin: 0 8px;
+			font-style: bold;
+            text-align: center;
+            padding-bottom: 8px;
+
+		}
+/*		div.two>ul.nav li{
+			border-bottom: 2px solid black;
+		}*/
+		div.two>ul.nav>li:first-child{
+			color: #b4a078;
+border-bottom: 3px solid #b4a078;
+		}
+		div.two div.logo{
+			width: 1090px;
+			padding: 20px;
+			
+		}
+		div.two div.logo img{
+			margin: 0 0 0 440.5px;
+		}
+		 .first::after{
+		 	content:"";
+		 	display:block;
+		 	clear:both;
+		 }
+		 .nav::after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.search{
+			z-index: 3;
+			position: relative;
+			margin: 35px 0px 0 0;
+			width: 322px;
+			height: 22px;
+			bottom: 0;
+			float: right;
+
+		}
+/*		.searchInputWrap{
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 1;
+display: block;
+height: 22px;
+line-height: 22px;
+border: 0;
+border-bottom: 1px solid #D8CEBC;
+font-size: 12px;
+width: 252px;
+outline: 0;
+overflow: hidden;
+background: 0 0;
+		}*/
+		.searchInput{
+			position: absolute;
+left: 0;
+top: 0;
+z-index: 1;
+display: block;
+height: 21px;
+line-height: 21px;
+border: 0;
+border-bottom: 1px solid #D8CEBC;
+font-size: 12px;
+width: 252px;
+outline: 0;
+overflow: hidden;
+background: 0 0;
+		}
+		.searchKeyword{
+			position: absolute;
+top: 5px;
+left: 11px;
+color: #999;
+display: block;
+line-height: 1;
+cursor: text;
+touch-action: none;
+pointer-events: none;
+white-space: nowrap;
+overflow: hidden;
+width: 230px;
+text-overflow: ellipsis;
+		}
+
+		.icon-yxtop-search{
+			background-position: 0 -291px;
+height: 20px;
+width: 20px;
+position: absolute;
+left: 252px;
+background-image: url(./images/z.png);
+display: inline-block;
+overflow: hidden;
+vertical-align: top;
+font-size: 12px;
+word-spacing: normal;
+letter-spacing: normal;
+		}
+		.searchCar{
+			position: relative;
+cursor: pointer;
+width: 34px;
+height: 32px;
+margin-top:-10px;
+float: right;
+		}
+				.searchButton{
+			width: 20px;
+cursor: pointer;
+margin: 0 6px 0 10px;
+		}
+		.icon-yxtop{
+			position: absolute;
+top: 0;
+right: 0;
+color: #fff;
+text-align: center;
+line-height: 20px;
+z-index: 1;
+background-position: 0 -51px;
+height: 19px;
+width: 19px;
+background-image: url(./images/z.png);
+display: inline-block;
+overflow: hidden;
+vertical-align: top;
+font-size: 12px;
+word-spacing: normal;
+letter-spacing: normal;
+		}
+		.icon-yxtop-cart{
+			position: absolute;
+bottom: 0;
+left: 0;
+background-position: 0 -113px;
+height: 23px;
+width: 23px;
+display: inline-block;
+overflow: hidden;
+vertical-align: bottom;
+font-size: 12px;
+word-spacing: normal;
+letter-spacing: normal;
+background-image: url(./images/z.png);
+		}

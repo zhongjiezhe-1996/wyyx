@@ -1,0 +1,120 @@
+.three{
+			height: 420px;
+			background-color: #fafafa;
+			width: 100%;
+			margin-top: 40px;	
+			display: flex;
+			/*position: relative;	*/	
+		}
+		.lunbo{
+			width:1920px;
+			min-width: 1090px;
+		z-index: 1;
+			height: 100%;
+			margin: auto;
+			background-repeat:no-repeat;
+			/*position:relative;*/
+			/*display: flex;*/
+			/*left: 0%;
+			right: 25%;*/
+			background-position: center;
+			/*left: %;*//*right: 25%;*/
+/*			margin-left: -660px;*/
+			animation:lunbo 15s;
+			animation-timing-function: ease-in;
+			animation-iteration-count: infinite;
+		}
+		.lun-left{
+			flex: 1;
+			height: 420px;
+/*			background-color: red;*/
+		}
+			.lun-left{
+			flex: 1;
+			height: 420px;
+/*			background-color: red;*/
+		}
+		div.lunbo:hover{
+			animation-play-state: paused;
+		}
+
+		@keyframes lunbo{
+			    0%{background-image: url(./images/2.jpg);
+
+			    /*width: 1337px;
+				height: 100%;overflow: hidden;*/}
+				20%{background-image: url(./images/b1.jpg);/*width: 1337px;
+				height: 100%;overflow: hidden;*/}
+				40%{background-image: url(./images/b2.jpg);/*width: 1337px;
+				height: 100%;overflow: hidden;*/}
+				60%{background-image: url(./images/b3.jpg);/*width: 1337px;
+				height: 100%;overflow: hidden;*/}
+				80%{background-image: url(./images/b4.jpg);/*width: 1337px;
+				height: 100%;overflow: hidden;*/}
+				100%{background-image: url(./images/2.jpg);/*width: 1337px;
+				height: 100%;overflow: hidden;*/}
+				
+		}
+		.nav > li:hover >.sub-nav {
+			display: block;
+		}
+	/*	.show{
+			display: block;
+
+
+		}*/
+		ul.nav>li:hover{
+			border-bottom: 3px solid #b4a078;
+		}
+	/*	ul.nav>li:nth-child(5),
+		ul.nav>li:nth-child(8){
+			height: 100px;
+			width: 940px;
+			margin:0 auto;
+			text-align: left;
+		}*/
+
+
+		.sub-nav {
+			/*background-color: rgba(0,0,0,0.1);*/
+			position:absolute;
+padding-top: 33px;
+text-align: center;
+display: none;
+margin-top: 1%;
+background-color: white;
+
+box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+
+		}
+		.sub-nav > ul {
+			width: 940px;
+			/*height: 200px;*/
+			margin: 0 auto;
+			text-align: left;
+
+		}
+		.sub-nav ul>li {
+			float: left;
+			line-height: 30px;
+			width: 60px;
+			text-align: center;
+		}
+		.sub-navList{
+			display: inline-block;
+white-space: nowrap;
+width: 930px;
+		}
+		.sub-navli1{
+			float: left;
+margin-bottom: 30px;
+vertical-align: middle;
+width: 44px;
+
+		}
+		.sub-navli1 p{
+			font-size: 14px;
+		}
+		.sub-nava1{
+			display: block;
+		}
